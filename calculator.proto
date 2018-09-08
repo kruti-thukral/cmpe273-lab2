@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "io.grpc.calculator";
+option java_outer_classname = "CalculatorProto";
+option objc_class_prefix = "Calc";
+
+package calculator;
+
+// The Calculator service definition.
+service Calculator {
+  // Sends a greeting
+  rpc Add (AddRequest) returns (AddReply) {}
+}
+
+// The request message which specifies the parameters to add function
+message AddRequest {
+  int32 a = 1;
+  int32 b = 2;
+}
+
+// The response message which specifies the format of the result of the addition
+message AddReply {
+  int32 result = 1;
+}
