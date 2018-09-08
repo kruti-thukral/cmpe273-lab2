@@ -1,0 +1,9 @@
+Krutis-MacBook-Pro:helloworld krutithukral$ python3 calculator_client.py
+ Enter value of first number:12
+ Enter value of second number:13
+Add result received: 25
+Krutis-MacBook-Pro:helloworld krutithukral$ python3 calculator_client.py
+ Enter value of first number:-4
+ Enter value of second number:1
+Add result received: -3
+Krutis-MacBook-Pro:helloworld krutithukral$
